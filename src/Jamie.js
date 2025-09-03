@@ -34,7 +34,7 @@ function Weatherwork() {
   const [weather, setWeather] = useState(null); // stores weather data
   const [loading, setLoading] = useState(false); // controls loading spinner
   const [error, setError] = useState(null); // stores error messages
-  const [position, setPosition] = useState([20, 0]); // default map position (world view)
+  const [position, setPosition] = useState([51.505, -0.09]); // default map position (world view)
 
   // 🔹 Input field change handler
   const handleCityChange = (event) => {
