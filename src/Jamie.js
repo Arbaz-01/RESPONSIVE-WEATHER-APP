@@ -129,7 +129,7 @@ function Weatherwork() {
 
       {/* ☁️ Overlay container on top of map */}
       <div className="Container">
-        <h1>Weather App</h1>
+        <h1>Weather Now</h1>
         <div className="Data-container">
           {/* Input field + button */}
           <div className="searchbox">
